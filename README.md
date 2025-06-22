@@ -143,6 +143,9 @@ python examples/inference/gradio_demo.py
 It will download the pretrained model from the HF Hub as well as example images.
 
 ## Training
+- ИХ ИНСТРУКЦИИ НЕ РАБОТАЮТ. ссылки на предобработку битые. как конкретно формировать датасет не очень понятно.
+- https://github.com/webdataset/webdataset/blob/main/examples/wds-notes.ipynb
+
 We provide in `examples\training` an example of a script to train a LBM for surface normal predictions on [`hypersim`](https://github.com/apple/ml-hypersim) see [this](https://github.com/prs-eth/Marigold/blob/main/script/dataset_preprocess/hypersim/README.md) for data processing. 
 
 In `examples\trainig\configs`, you will find the configuration `yaml` associated to the training script. The only thing you need to do is to amend the `SHARDS_PATH_OR_URLS` section of the `yaml` so the model is trained on your own data. 

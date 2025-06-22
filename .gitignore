@@ -8,3 +8,5 @@ examples/inference/examples/*
 envs/*
 checkpoints/*
 *.sh
+ai_001_001
+*.zip
